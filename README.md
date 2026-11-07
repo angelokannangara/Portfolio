@@ -35,7 +35,7 @@ Personal portfolio of Angelo Kannangara: software engineer, Flutter developer an
 ## Run it locally
 
 ```bash
-git clone https://github.com/angelokannangara/REPO_NAME.git
+git clone https://github.com/angelokannangara/Portfolio.git
 cd REPO_NAME
 ```
 
