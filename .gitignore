@@ -1,0 +1,58 @@
+# Secrets and local config (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+config.local.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm/
+.cache/
+.parcel-cache/
+
+# Build and deploy output
+dist/
+build/
+.vercel/
+.netlify/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Large media and source files (host these elsewhere, e.g. YouTube)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.psd
+*.ai
+*.xcf
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Project work-in-progress (keep private projects out of this repo)
+drafts/
+private/
