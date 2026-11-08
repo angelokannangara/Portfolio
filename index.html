@@ -142,6 +142,8 @@ blockquote cite{display:block;margin-top:18px;font-style:normal}
 .video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#000;margin-top:6px}
 .video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .grid{grid-auto-flow:dense}
+.card-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.card-links .btn{padding:10px 18px;font-size:.85rem}
 
 /* Timeline */
 .tl{position:relative;display:grid;gap:34px;padding-left:34px;max-width:760px}
@@ -260,10 +262,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 
           <p>An educational platform for Sri Lankan students — making mathematics accessible, structured, and engaging with resources tailored to the local curriculum.</p>
           <div class="tags"><span>Web</span><span>HTML / CSS / JS</span><span>Education</span></div>
         </a>
-        <article class="card feat rv">
-  <div class="top"><span class="mono">Civic Tech · Windows V1</span></div>
+ <article class="card feat rv">
+  <div class="top"><span class="mono">Civic Tech · Windows V1 + Web</span></div>
   <h3>Ape Para <span class="mono">අපේ පාර</span></h3>
-  <p>A Windows desktop app for reporting and tracking road and infrastructure problems in Sri Lanka. Citizens submit reports with photos, and admins manage their status. A web version is planned.</p>
+  <p>A civic reporting app for Sri Lanka. Citizens report potholes, garbage, street lights and drainage problems with photos, and admins track each report's status. Version 1 is a Windows desktop app, and a web version is now live.</p>
   <div class="video-wrap">
     <iframe
       src="https://www.youtube.com/embed/DBSFMnZzWEk"
@@ -273,7 +275,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen></iframe>
   </div>
-  <div class="tags"><span>C#</span><span>Windows Forms</span><span>SQLite</span><span>Web version planned</span></div>
+  <div class="card-links">
+    <a class="btn pri" href="https://ape-para.vercel.app/" target="_blank" rel="noopener">Try the web app ↗</a>
+    <a class="btn sec" href="https://www.youtube.com/watch?v=DBSFMnZzWEk" target="_blank" rel="noopener">Watch on YouTube ↗</a>
+  </div>
+  <div class="tags"><span>C#</span><span>Windows Forms</span><span>SQLite</span><span>Web app</span></div>
 </article>
         <article class="card rv">
           <div class="top"><span class="mono">Intelligence</span><span class="arrow">↗</span></div>
